@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link id="csslink" rel="stylesheet" href="alternate.css"> 
+    <title>My Project 1 Highlights</title>
+
+    <script>
+        function toggleCSS() {
+            // Obtains the <link> element that links to the css (by using its id).
+            var currentCSS = document.getElementById('csslink');
+
+            // Change the value of href attribute to change the css file.
+            if (currentCSS.getAttribute('href') == 'main.css') {
+                currentCSS.setAttribute('href', 'alternate.css');
+            } else {
+                currentCSS.setAttribute('href', 'main.css');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="pages">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+                <button class="styled-button" onclick="toggleCSS()">Switch Style</button>
+            </ul>
+            <ul class="social-media">
+                <li><a href="https://twitter.com/Omoinotakey" target="_blank"><img
+                            src="https://www.svgrepo.com/show/475689/twitter-color.svg"></a></li>
+                <li><a href="https://www.instagram.com/omoinotake/" target="_blank"><img
+                            src="https://www.svgrepo.com/show/475658/instagram-color.svg"></a></li>
+                <li><a href="https://www.youtube.com/@Omoinotake" target="_blank"><img
+                            src="https://www.svgrepo.com/show/13671/youtube.svg"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="altmain">
+        <section>
+            <h1>Highlights</h1>
+            <article>
+                <p class="altheader">Here are my highlights and various media from Omoinotake that I think show how
+                    unique they can be:</p>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HxedVG0rzA8?si=MOSctMndByQJHDBr"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <br>
+                <p>One Day is my favorite song from this group.</p>
+                <br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WSJQcgBAyys?si=1u-5SYzd1fSsL-WL"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p>Shiawase (幸せ) is their most recent big hit as the song has premiered in a popular TV anime.</p>
+                <br><br>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cwC7u-XdpLM?si=hV4A76uOs-ihKl4q"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p>Ubugoe (産声) may be the most popular song/MV due to being the theme song for a movie called "Cherry
+                    Magic".
+                    It is somber but uplifting song with jazzy tunes.
+                </p>
+                <br><br>
+                <p>Below are a few short samples of street lives that I feel was the start of their uprising to the
+                    public. I also
+                    think there is a special charm to street lives in general; there's a special feeling being there
+                    too.
+                </p>
+                <video width="640" height="360" controls>
+                    <source src="\videos\strlive1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="640" height="360" controls>
+                    <source src="\videos\strlive2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="640" height="360" controls>
+                    <source src="\videos\strlive3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Dan Vo</p>
+        <p>Disclaimer: All images and links were taken from Omoinotake's official sources such as social media (provided
+            in header).</p>
+        </p>
+    </footer>
+
+</body>
+
+</html>

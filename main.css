@@ -1,0 +1,143 @@
+.styled-button {
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    font-family: "RodinPro-M", "Yu Gothic UI Light", Arial, sans-serif;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #202020;
+}
+
+nav .pages a:visited {
+    color: #cc51b8;
+}
+
+nav .pages li a:hover {
+    color: #bdbab8;
+    transition: color 0.2s;
+}
+
+nav .social-media li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav .social-media li a img:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.altheader {
+    text-align: center;
+}
+
+.slide img {
+    width: 95%;
+    height: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.Discography {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.Discography th,
+.Discography td {
+    border: 2px solid #dadbd1;
+    text-align: center;
+    padding: 7px;
+}
+
+.Discography th {
+    background-color: #f2f2f2;
+}
+
+.Discography td {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.altmain {
+    text-align: center;
+}
+
+main {
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.125);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
