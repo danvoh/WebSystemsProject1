@@ -9,5 +9,5 @@ My website includes:
 - **Style Switcher**: A button allows users to switch between two different CSS styles, providing a customizable experience.
 - **Content**: The webpage provides information about Omoinotake's history, music, and discography.
 
-##Access The Page
+## Access The Page
 A link to the site is accessed [here](https://danvoh.github.io/WebSystemsProject1/) using GitHub Pages.
